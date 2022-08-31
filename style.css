@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: Cambria;
+}
+
+#container{
+    background-image: url(four.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #000;
+    color: white;
+    box-shadow: 1px 1px 5px grey;
+}
+
+#navbar ul li a{
+    color: white;
+}
+
+#navbar ul li a:hover{
+    text-shadow: 2px 2px 2px yellow;
+    color: yellow;
+}
+
+.title-header{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    
+}
+
+.title-body{
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.title-footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+#aboutus{
+    margin: 20px 0;
+}
+
+#menu{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.card{
+    text-align: center;
+}
+
+#feedback{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#user{
+    border-left: 5px solid blue;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.footer{
+    height: 50px;
+    line-height: 50px;
+}
